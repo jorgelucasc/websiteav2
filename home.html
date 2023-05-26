@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="links_header">
+        <span id="username"></span>
+        <a class="links_header_link" href="home.html">Home</a>
+        <a class="links_header_link" href="about.html">About</a>
+      </nav>
+    </header>
+    <main class="apresentacao">
+      <section class="apresentacau_conteudo">
+        <!--usei o elemento strong para poder destacar, vi esse termo em uma aula do allura-->
+        <h1 class="apresentacao_title">
+          Oi,<br />Eu sou
+          <strong class="title-user"><span id="title_user"></span></strong
+          ><br />
+          Web Designer
+        </h1>
+        <p>
+          <a class="redirect_about_img" href="about.html"
+            ><img
+              src="/img/png-clipart-mauricio-de-nassau-faculty-state-university-of-the-valley-of-the-acarau-higher-education-student-student-text-people.png"
+              alt="Icone Uninassau"
+          /></a>
+        </p>
+        <a class="apresentacao_button_contato" href="https://www.linkedin.com/"
+          >Contato</a
+        >
+        <!--coloquei o atributo href pra redirecionar pro about caso clique na imagem-->
+      </section>
+    </main>
+    <footer class="footer">
+      <a href="https://instagram.com.br"
+        ><img src="img/instagram.png" alt="logomarca instagram"
+      /></a>
+      <a href="http://github.com"
+        ><img src="img/github.png" alt="logomarca github"
+      /></a>
+    </footer>
+    <script src="js/home.js"></script>
+  </body>
+</html>

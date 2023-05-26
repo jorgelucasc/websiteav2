@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Login</h1>
+    </header>
+    <main>
+      <!--coloquei algumas classes para identificar e ajudar no css-->
+      <form action="home.html" method="GET" id="login_p">
+        <label for="login_user">Usuário</label>
+        <input
+          type="text"
+          name="login_user"
+          id="login_user"
+          maxlength="100"
+          placeholder="Digite seu usuário!"
+          autofocus
+          required
+        />
+        <label for="pass_user">Senha</label>
+        <input
+          type="password"
+          name="password"
+          id="pass_user"
+          minlength="8"
+          placeholder="Digite sua senha!"
+          autocomplete="current-password"
+          required
+        />
+        <!--coloquei um autofocus pra assim que abrir a page ja segue pra o input de digitar usuario e coloquei um placeholder, e o required tanto em usuario quanto senha, para obrigar o preenchimento-->
+        <!--achei interessante colocar o minlenght 8 pq acredito ser um padrão pra sistemas web -->
+        <!--olhando a documentação pra esse tipo de campo, achei interessante colocar o autocomplete current-pass, pois ele não sugere uma nova senha, apenas ja salva para o site-->
+        <input type="submit" value="Login" />
+        <a href="blank.html">Esqueceu a senha?</a>
+        <!--criei uma pagina em branco so pra mostrar como se tivesse redirecionando pra pagina de recuperar a senha-->
+      </form>
+    </main>
+    <script src="js/login.js"></script>
+  </body>
+</html>
