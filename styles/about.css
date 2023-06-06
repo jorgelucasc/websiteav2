@@ -22,7 +22,6 @@ body {
 
 .header_user {
   display: flex;
-  gap: 40px;
 }
 
 .links_header_link {
@@ -54,42 +53,12 @@ body {
 
 .apresentacao_title {
   font-family: 'Krona One', sans-serif;
-  font-size: 72px;
-  line-height: 1.5;
+  font-size: 42px;
 }
 
 .title-user {
-  color: #1970d4;
-  font-weight: bold;
-}
-
-.apresentacao_button_contato {
-  display: flex;
-  justify-content: center;
-  background-color: #1970d4;
-  width: 100px;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 15px;
-  padding: 10px 50px;
   font-family: 'Krona One', sans-serif;
-  color: white;
-  font-size: 30px;
-}
-
-.redirect_about_img {
-  display: flex;
-}
-
-.links_social {
-  display: flex;
-  flex-direction: row;
-  gap: 32px;
-}
-
-.div_link_social {
-  display: flex;
-  padding: 10vw 0px 0px 0px
+  font-weight: bold;
 }
 
 .footer {
